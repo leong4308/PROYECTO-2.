@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servidor Web</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #35424a;
+            color: white;
+            padding: 0.5rem;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        h2 {
+            color: #35424a;
+        }
+        footer {
+            background-color: #35424a;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        dl {
+            margin-bottom: 20px;
+        }
+        dt {
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        dd {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>ACERCA DEL PROYECTO.</h1>
+    </header>
+    <nav>
+        <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca.html">Acerca de</a></li>
+                <li><a href="conctacto.html">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="definicion">
+            <h2>Definición</h2>
+            <p>Un servidor web es un software que maneja solicitudes de clientes (generalmente navegadores web) y entrega recursos (como páginas web) en respuesta.</p>
+        </section>
+
+        <section id="funcion">
+            <h2>Función</h2>
+            <dl>
+                <dt>Escucha:</dt>
+                <dd>Espera solicitudes en el puerto 80.</dd>
+
+                <dt>Recibe:</dt>
+                <dd>Captura la solicitud del cliente.</dd>
+
+                <dt>Busca:</dt>
+                <dd>Localiza el r ecurso en su sistema de archivos.</dd>
+
+                <dt>Envía:</dt>
+                <dd>Devuelve el recurso al cliente.</dd>
+            </dl>
+        </section>
+
+        <section id="tipos">
+            <h2>Tipos Principales</h2>
+            <ul>
+                <li>Apache HTTP Server</li>
+                <li>LiteSpeed Web Server</li>
+                <li>Nginx</li>
+            </ul>
+        </section>
+
+        <section id="http">
+            <h2>Protocolo HTTP</h2>
+            <p>HTTP es el protocolo para transferir documentos en la web, como HTML.</p>
+            <dl>
+                <dt>Características:</dt>
+                <dd>
+                    <ul>
+                        <li>Sin Estado: Cada solicitud es independiente.</li>
+                        <li>Cliente-Servidor: El cliente inicia la solicitud.</li>
+                    </ul>
+                </dd>
+
+                <dt>Métodos Comunes:</dt>
+                <dd>
+                    <ul>
+                        <li>GET: Solicita un recurso.</li>
+                        <li>POST: Envía datos al servidor.</li>
+                        <li>PUT: Actualiza un recurso.</li>
+                        <li>DELETE: Elimina un recurso.</li>
+                    </ul>
+                </dd>
+
+                <dt>Códigos de Estado:</dt>
+                <dd>
+                    <ul>
+                        <li>200 OK: Solicitud exitosa.</li>
+                        <li>404 Not Found: Recurso no encontrado.</li>
+                        <li>500 Internal Server Error: Error del servidor.</li>
+                    </ul>
+                </dd>
+
+                <dt>Versiones:</dt>
+                <dd>
+                    <ul>
+                        <li>HTTP/1: Conexiones persistentes.</li>
+                        <li>HTTP/2: Multiplexación y compresión.</li>
+                        <li>HTTP/3: Basado en QUIC para mejor rendimiento.</li>
+                    </ul>
+                </dd>
+            </dl>
+        </section>
+
+        <section id="seguridad">
+            <h2>Seguridad</h2>
+            <dl>
+                <dt>Medidas Clave:</dt>
+                <dd>
+                    <ul>
+                        <li>Configuración: Asegurar el servidor desactivando funciones innecesarias.</li>
+                        <li>Control de Acceso: Implementar autenticación y autorización.</li>
+                        <li>Monitoreo: Usar herramientas para detectar incidentes.</li>
+                        <li>HTTPS: Cifrar comunicaciones con SSL/TLS.</li>
+                        <li>Actualizaciones: Mantener software actualizado.</li>
+                        <li>Protección contra Ataques: Usar firewalls y WAFs.</li>
+                    </ul>
+                </dd>
+            </dl>
+        </section>
+
+        <section id="escalabilidad">
+            <h2>Escalabilidad</h2>
+            <dl>
+                <dt>Horizontales:</dt>
+                <dd>
+                    <ul>
+                        <li>Balanceo de Carga: Agregar más servidores para distribuir tráfico.</li>
+                    </ul>
+                </dd>
+
+                <dt>Verticales:</dt>
+                <dd>
+                    <ul>
+                        <li>Recursos: Aumentar CPU, RAM y almacenamiento en servidores existentes.</li>
+                    </ul>
+                </dd>
+
+                <dt>Otras Estrategias:</dt>
+                <dd>
+                    <ul>
+                        <li>Microservicios: Dividir aplicaciones en servicios independientes.</li>
+                        <li>Bases de Datos Distribuidas: Escalar horizontalmente.</li>
+                        <li>Caché Distribuido: Reducir carga en servidores y bases de datos.</li>
+                    </ul>
+                </dd>
+            </dl>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Derechos reservados.</p>
+    </footer>
+</body>
+</html>

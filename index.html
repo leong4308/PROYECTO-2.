@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi SERVIDOR WEB.</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Enlace al archivo CSS externo -->
+</head>
+
+
+
+<body>
+    <header>
+        <h1>MI SERVIDOR WEB.</h1> <!-- Encabezado -->
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="acerca.html">Acerca de</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>SERVIDOR WEB.</h2>
+        <b><p>Definición.</p></b>
+        <p>Un servidor web es, esencialmente, un ordenador conectado a Internet que 
+            almacena archivos (páginas web, imágenes, videos, etc.) y los sirve a los 
+            usuarios cuando estos solicitan una dirección web específica (URL) a través 
+            de un navegador.</p>
+
+           <p> <b>HTTP: Hypertext Transfer Protocol.</b> Es el protocolo de comunicación q
+            ue utilizan los navegadores y servidores web para intercambiar datos. Imagina 
+            que es el lenguaje que hablan ambos para entenderse. </p>
+
+
+            
+           
+
+
+            <b><p>Función.</p></b>
+            <ul>
+                <li>Espera peticiones de clientes (generalmente navegadores web) en el puerto 80.</li>
+                <li>Recibe una petición.</li>
+                <li>Busca el recurso solicitado en su sistema de archivos.</li>
+                <li>Envía el recurso solicitado al cliente.</li>
+            </ul>
+
+
+            <b><p>Funciones Adicionales de un Servidor Web.</p></b>
+            <ul>
+                <li>Procesar aplicaciones: Ejecutar scripts (como PHP, Python, Ruby)
+                     para generar contenido dinámico, como páginas web personalizadas 
+                     según el usuario.</li>
+
+                <li>Alojar bases de datos: Almacenar información en bases de datos para 
+                    aplicaciones web más complejas.</li>
+
+                <li>Proporcionar servicios de correo electrónico: A través de protocolos 
+                    como SMTP, POP3 e IMAP.</li>
+
+                <li>Servir contenido multimedia: Transmitir archivos de audio y video en 
+                    streaming.</li>
+            </ul>
+
+            <b><p>Tipos principales.</p></b>
+            <p>Apache HTTP Server, Apache HTTP Server, LiteSpeed Web Server.etc</p>
+
+            <h2><center>Protocolo HTTP.</center></h2>
+            <p><center>HTTP es el protocolo de comunicación que permite las transferencias de información en la World Wide Web. Es un protocolo de la capa de aplicación para la transmisión de documentos hipermedia, como HTML.</center></p>
+           
+            <div style="display: flex; justify-content: center; align-items: center; height: 150h;">    <!-- insertar imagenes -->
+                <img src="imagenes/imagen1.jpg" width="400" height="300" />
+              </div>
+         
+
+
+        
+            <dl>
+
+                <dt>Características principales:</dt>
+                <dd>
+                    Sin estado: Cada petición HTTP es independiente y no guarda información de peticiones anteriores.
+                </dd>
+    
+                
+                <dt>Cliente-servidor:</dt>
+                <ds>
+                    El cliente (generalmente un navegador web) inicia la comunicación haciendo unapetición al servidor.
+                </dd>
+
+
+                <dt>Métodos de petición:</dt>
+                <dd>
+                    Los más comunes son GET (solicitar un recurso), POST (enviar datos alservidor), PUT (actualizar un recurso), DELETE (eliminar un recurso)
+                </dd>
+
+
+
+                <dt>Códigos de estado:</dt>
+                <dd>
+                    Indican el resultado de la petición (por ejemplo, 200 OK, 404 Not Found, 500 Internal Server Error).
+                </dd>
+
+
+
+                <dt>Cabeceras:</dt>
+                <dd>
+                    Sin estado: Cada petición HTTP es independiente y no guarda información de peticiones anteriores.
+                </dd>
+            </d1>
+
+
+            <h2><center>Versiones.</center></h2>
+            <u><b><p>HTTP/1:</b> La versión más utilizada, introduce mejoras como conexiones persistentes. </p> </u>
+            <u><b><p>HTTP/2:</b>Introduce multiplexación de flujos, compresión de cabeceras y priorización de peticiones. </p> </u>
+            <u><b><p>HTTP/3:</b> La versión más reciente, basada en el protocolo QUIC para mejorar el rendimiento. </p> </u>
+
+
+            <h2><center>Tipos de Servidores Web (Más allá de los mencionados).</center></h2>
+            
+            <div style="display: flex; justify-content: center; align-items: center; height: 150h;">    <!-- insertar imagenes -->
+                <img src="imagenes/imagen2.jpg" width="400" height="300" />
+              </div>
+
+            <b><p>Nginx: </b>Ofrece un rendimiento similar a Nginx, pero con compatibilidad más amplia con módulos de Apache.</p> 
+            <b><p>Microsoft IIS:</b>El servidor web de Microsoft, ampliamente utilizado en entornos Windows.</p> 
+            <b><p>Node.js: </b> No es estrictamente un servidor web, pero se utiliza comúnmente para crear servidores web altamente escalables y de un solo hilo.</p> 
+
+
+
+
+
+
+            <h2><center>Componentes Clave de un Servidor Web.</center></h2>
+            <b><p>Nginx: </b>El programa que gestiona las solicitudes HTTP y envía las respuestas (ej: Apache, Nginx).</p> 
+            <b><p>Sistema operativo:</b>El sistema operativo en el que se ejecuta el software del servidor (ej: Linux, Windows).</p> 
+            <b><p>Hardware: </b> El equipo físico que ejecuta el servidor (CPU, RAM, disco duro).</p> 
+            <b><p>Base de datos: </b> Si la aplicación requiere almacenar datos, se necesita una base de datos (ej: MySQL, PostgreSQL).</p> 
+
+
+
+
+            <h2><center>Seguridad (Ampliando).</center></h2>
+            
+            <div style="display: flex; justify-content: center; align-items: center; height: 150h;">    <!-- insertar imagenes -->
+                <img src="imagenes/imagen3.jpg" width="400" height="300" />
+              </div> 
+            </head>
+
+            <b><p>Certificados SSL/TLS: </b>Esenciales para el cifrado de la comunicación y la protección de datos sensibles.</p> 
+            <b><p>WAF (Web Application Firewall):</b>Filtra el tráfico HTTP para bloquear ataques web comunes.</p> 
+            <b><p>HSTS (HTTP Strict Transport Security):</b> Fuerza a los navegadores a utilizar HTTPS para todas las comunicaciones con un sitio web.</p> 
+            <b><p>CORS (Cross-Origin Resource Sharing):</b> Permite que un navegador haga solicitudes a un servidor de un dominio diferente.</p> 
+
+           
+
+
+            
+
+            <body>
+                <div class="alinear-derecha">
+
+                    <b><p>Configuración adecuada:</b>Asegurar que la configuración del servidor sea segura, deshabilitando funciones innecesarias y siguiendo las mejores prácticas.</p> 
+                    <b><p>Control de acceso:</b>Implementar autenticación fuerte y autorización adecuada para proteger recursos sensibles.</p> 
+                    <b><p>Monitoreo y registro:</b>Implementar sistemas de monitoreo y registro para detectar y responder rápidamente a incidentesde seguridad .</p> 
+                    <b><p>Seguridad en la capa de red:</b>Configurar correctamente firewalls y utilizar técnicas como la segmentación de red.</p> 
+                </div>
+
+                <div class="alinear-izquierda">
+                    <b><p>Implementación de HTTPS:</b>Utilizar SSL/TLS para cifrar la comunicación entre el cliente y el servidor, protegiendo contra ataques de intermediarios</p> 
+                    <b><p>Actualizaciones regulares:</b>Mantener el software del servidor y sus componentes actualizados para corregir vulnerabilidades conocidas</p> 
+                    <b><p>Prevención de ataques comunes:</b>Proteger contra ataques como inyección SQL, cross-site scripting (XSS), y cross-site reques forgery (CSRF) .</p> 
+                    <b><p>Firewalls de aplicaciones web (WAF):</b>Utilizar WAFs para detectar y bloquear ataques maliciosos.</p> 
+   
+                </div>
+            </body>  
+            
+            
+            
+
+            <h2><center>Escalabilidad Horizontal.</center></h2>
+
+            <p><b>Seguridad en la capa de red:</b></p> 
+            <p>Agregar más servidores para distribuir la carga, utilizando técnicas como el balanceo de carga. </p>
+
+            <p><b>Escalabilidad Vertical:</b></p> 
+            <p>Aumentar los recursos (CPU, RAM, almacenamiento) de los servidores existentes. </p>
+
+            <p><b>Arquitectura de Microservicios:</b></p> 
+            <p>Dividir la aplicación en servicios independientes que pueden escalar de forma individual.</p>
+
+
+            <p><b>Bases de Datos Distribuidas:</b></p> 
+            <p>Utilizar sistemas de bases de datos que pueden escalar horizontalmente. </p>
+
+            <p><b>Caché Distribuido:</b></p> 
+            <p>Implementar sistemas de caché distribuidos para reducir la carga en los servidores y bases de datos.</p>
+
+    </main>
+
+   
+
+</body>
+</html>
+
+
+
